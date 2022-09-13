@@ -1,0 +1,17 @@
+#sfondo{
+  background-color: red;
+}
+
+.scatola{
+  height: 100px;
+  width: 100px;
+  border: 3px solid orange;
+  border-radius: 5px;
+  background-color: yellow;
+}
+
+.test{
+  width: 100px;
+  background-color: aqua;
+  display: inline-block;
+}
