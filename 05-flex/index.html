@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <!-- <ul class="container-flex f-direction-row f-justify-content-start align-items-end">
+    <li>lorem 1</li>
+    <li>lorem 2</li>
+    <li>lorem 3</li>
+    <li>lorem 4</li>
+    <li>lorem 5</li>
+  </ul> -->
+
+  <!-- Flex direction: row
+          main axios: è sull'asse delle X
+          cross axios: è sull'asse delle y
+
+          justify content si muove sul main Axis
+          align items si muove sul cross axis
+  -->
+  <div class="container-flex f-justify-content-between align-items-center">
+    <div class="box bg-red"></div>
+    <div class="box bg-blue"></div>
+    <div class="box bg-blue"></div>
+    <div class="box bg-green"></div>
+  </div>
+
+    <!-- Flex direction: column
+          main axios: è sull'asse delle y
+          cross axios: è sull'asse delle x
+
+          justify content si muove sul main Axis
+          align items si muove sul cross axis
+  -->
+  <div class="container-flex f-direction-col f-justify-content-between align-items-center">
+    <div class="box bg-red"></div>
+    <div class="box bg-blue"></div>
+    <div class="box bg-blue"></div>
+    <div class="box bg-green"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  background-color: red;
+  height: 800px;
+}
+
+.container-flex{
+  display: flex;
+  border: 1px solid black;
+  height: 500px;
+}
+
+.box{
+  height: 100px;
+  width: 100px;
+}
+
+.bg-red{
+  background-color: red;
+}
+
+.bg-blue{
+  background-color: blue;
+}
+
+.bg-green{
+  background-color: green;
+}
+
+.f-direction-row{
+  flex-direction: row;
+}
+
+.f-justify-content-start{
+  justify-content: start;
+}
+
+.f-justify-content-end{
+  justify-content: end;
+}
+
+.f-justify-content-center{
+  justify-content: center;
+}
+
+.f-justify-content-around{
+  justify-content: space-around;
+}
+
+.f-justify-content-between{
+  justify-content: space-between;
+}
+
+.f-direction-col{
+  flex-direction: column;
+}
+
+.align-items-end{
+  align-items: flex-end;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+
+li{
+  list-style: none;
+}
