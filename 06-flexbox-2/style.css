@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  /* padding: 30px; */
+  /* min-width: 100px; */
+  margin: 0 auto;
+  width: 80%;
+}
+
+.box{
+  /* width: 100px; */
+  height: 100px;
+  width: 100px;
+}
+
+.box-red{
+  background-color: red;
+  flex-grow: 1;
+  margin-right: 20px;
+  flex-shrink: 1;
+  order: 2;
+  /* flex-basis: 50%; */
+}
+
+.box-blue{
+  background-color: blue;
+  flex-grow:1;
+  flex-shrink: 2;
+  order: 1;
+  /* flex-basis: 33%; */
+}

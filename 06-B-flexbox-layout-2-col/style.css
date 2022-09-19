@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: lightgoldenrodyellow;
+  margin-bottom: 30px;
+}
+
+footer{
+  background-color: lightpink;
+  margin-top: 30px;
+}
+
+
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  /* align-items: stretch; */
+  /* height: 100vh; */
+}
+
+.box{
+  /* height: 100px;
+  width: 100px; */
+}
+
+.box-red{
+  background-color: red;
+  flex-basis: 20%;
+}
+
+.box-blue{
+  background-color: blue;
+  flex-basis: 58%;
+}
+
+.f-red{
+  color: red;
+}
+
+footer .box-red,
+footer .box-blue{
+  flex-basis: 20%;
+  height: 100px;
+}
