@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* div {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  margin: 1px;
+}
+
+.green{
+  background: green;
+}
+
+.blue{
+  background: blue;
+  position: absolute;
+  top: 0;
+} */
+
+/* .red{
+  background: red;
+  position:relative;
+  left: 90%
+} */
+
+.container{
+  border: 2px solid black;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  /* background-image: url('./img/jordan.jpg');
+  background-repeat: no-repeat;
+  /* background-attachment: fixed;
+  background-size: cover; */
+
+}
+
+.fa-heart{
+  color: red;
+  font-size: 25px;
+  position: absolute;
+  /* right: -5px; */
+}
+
+main{
+  display: flex;
+  justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu{
+  font-size: 100px;
+  position: fixed;
+  right: 0;
+  top: 0;
+
+}
+
+.menu,
+.fa-arrow-up{
+  z-index: 1;
+}
+
+.fa-arrow-up{
+  color: red;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 100px;
+}
+
+.menu:hover{
+  display: none;
+}
+
+/* Hover example */
+.img{
+  width: 100%;
+  object-fit: contain;
+}
+
+.img-2{
+  display: none;
+}
+
+.container:hover .img-1{
+  display: none;
+}
+
+.container:hover .img-2{
+  display: block;
+  /* object-fit: cover; */
+}
