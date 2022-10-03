@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box
+}
+.container{
+  border: 1px solid blue;
+}
+
+.box{
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  margin: 10px;
+}
+
+@media screen
+and (max-width: 668px)
+/* and (orientation : landscape) */
+{
+  .box{
+    display: inline-block;
+    background-color: lightcoral;
+  }
+}
