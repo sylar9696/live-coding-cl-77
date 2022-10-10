@@ -1,0 +1,22 @@
+ul{
+  display: inline-block;
+}
+
+li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.bg-blue-dark{
+  background-color: #2C3E50;
+}
+
+.bg-green-light{
+  background-color: #1ABC9C;
+}
+
+.navbar-collapse {
+    /* flex-basis: 100%; */
+    flex-grow: 0;
+    /* align-items: center; */
+}
