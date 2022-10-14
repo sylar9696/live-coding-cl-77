@@ -1,0 +1,28 @@
+#logo-sony{
+  height: 15px;
+}
+
+#jumbotron{
+  background-image: url('../img/jumbo-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+#game-cards .card:hover{
+  /* position: relative;
+  bottom: 1em; */
+  transform: translateY(-1em);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.card{
+  padding: 0.8px;
+}
+
+.card-active{
+  border: 3px solid #2972cf;
+  border-radius: 10px;
+}

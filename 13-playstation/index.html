@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <!-- Area nera sony -->
+    <div class="bg-dark text-end py-2 pe-2">
+      <img src="./assets/img/sony_logo.svg" id="logo-sony" alt="">
+    </div>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/img/play_logo.svg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Main -->
+  <main>
+    <section id="jumbotron" class="text-white d-flex flex-column justify-content-end">
+      <div class="container mb-5">
+        <div class="w-50">
+          <h2>lorem</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, magni tenetur quasi fugit, architecto minus
+            nulla consequuntur culpa sunt fugiat deserunt placeat vero repellendus ratione hic quia dolores error quas!
+          </p>
+          <button class="btn btn-danger rounded-pill">click me</button>
+        </div>
+      </div>
+    </section>
+    <!-- card giochi -->
+    <section class="py-5" id="game-cards">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="card card-active">
+              <img class="img-fluid rounded-3 " src="./assets/img/returnal-listing-thumb-01-ps5.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="card">
+              <img class="img-fluid rounded-3 " src="./assets/img/returnal-listing-thumb-01-ps5.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="card">
+              <img class="img-fluid rounded-3 " src="./assets/img/returnal-listing-thumb-01-ps5.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="card">
+              <img class="img-fluid rounded-3 " src="./assets/img/returnal-listing-thumb-01-ps5.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="card">
+              <img class="img-fluid rounded-3 " src="./assets/img/returnal-listing-thumb-01-ps5.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="card">
+              <img class="img-fluid rounded-3 " src="./assets/img/returnal-listing-thumb-01-ps5.jpg" alt="">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Console -->
+    <section id="console">
+      <div class="container">
+        <div class="text-center">
+          <h4 class="text-primary">PLAY HAS NO LIMITS</h4>
+          <h2>Ecco la PlayStation 5</h2>
+          <p>Tuffati in nuove possibilità di gioco completamente inaspettate</p>
+        </div>
+
+        <div class="row align-items-center">
+          <div class="col-6">
+            <h2>Console PlayStation 5</h2>
+            <p>Sperimenta la nuova generazione di incredibili giochi PlayStation.</p>
+            <button class="btn btn-primary rounded-pill">Maggiori informazioni</button>
+          </div>
+          <div class="col-6">
+            <img src="./assets/img/playstation-5-thumb.png" class="img-fluid" alt="">
+          </div>
+        </div>
+
+        <div class="row row-cols-lg-5 row-cols-sm-3 g-2">
+          <div class="col">
+            <img src="./assets/img/joypad-thumb.png" class="img-fluid" alt="">
+          </div>
+          <div class="col">
+            <img src="./assets/img/joypad-thumb.png" class="img-fluid" alt="">
+          </div>
+          <div class="col">
+            <img src="./assets/img/joypad-thumb.png" class="img-fluid" alt="">
+          </div>
+          <div class="col">
+            <img src="./assets/img/joypad-thumb.png" class="img-fluid" alt="">
+          </div>
+          <div class="col">
+            <img src="./assets/img/joypad-thumb.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- script bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
