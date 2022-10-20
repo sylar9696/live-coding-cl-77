@@ -13,6 +13,7 @@ let minutiMancanti = minutiInUnOra - minutiAttuali;
 
 document.getElementById('quantoManca').innerHTML = `mancano: ${minutiMancanti} minuti`
 
+let numero = 5.2645
 
 /*
 Il programma dovrà chiedere all'utente il numero di chilometri che vuole percorrere e l'età del passeggero.
@@ -26,5 +27,6 @@ Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio,
 L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
   - scrivere il prezzo
   - limitare il prezzo a  2 decimali
+  - console.log( parseFloat(numero.toFixed(2)) )
 
 */

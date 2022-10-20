@@ -1,0 +1,7 @@
+*{padding: 0; margin: 0; box-sizing:border-box}
+
+.darkText{
+  font-size: 4rem;
+  background-color: lightgoldenrodyellow;
+  color: black;
+}
