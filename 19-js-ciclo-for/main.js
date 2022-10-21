@@ -21,11 +21,11 @@ for (let i = 0; i < 10; i = i + 2) {
 let ul = document.getElementById('lista');
 let li = document.createElement('span');
 
-li.classList.add('test');
+//aggiungo una classe
+li.classList.add('text-primary');
+// aggiungo del testo all'interno del tag
 li.innerText = 'ciao';
 console.log(li)
-
-console.log(li);
 
 ul.append(li);
 
