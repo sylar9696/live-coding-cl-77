@@ -2,14 +2,14 @@
 - creare un array con alimenti da comprare al supermercato
 */
 
-const lista = [
-  'latte',
-  'uova',
-  'pomodori',
-  'pizza'
-];
+// const lista = [
+//   'latte',
+//   'uova',
+//   'pomodori',
+//   'pizza'
+// ];
 
-const listaSpesa = document.getElementById('listaSpesa');
+// const listaSpesa = document.getElementById('listaSpesa');
 
 // //versione con il for
 // for( let i=0; i < lista.length; i++ ){
@@ -23,19 +23,19 @@ const listaSpesa = document.getElementById('listaSpesa');
 
 //versione con while
 
-let i = 0;
+// let i = 0;
 
-while( i < lista.length ){
+// while( i < lista.length ){
 
-  //mio codice
-  const li = document.createElement('li');
-  //inserire una classe a <li></li>
-  li.innerText = lista[i];
-  li.classList.add('text-center', 'bg-blue');
-  listaSpesa.append(li);
+//   //mio codice
+//   const li = document.createElement('li');
+//   //inserire una classe a <li></li>
+//   li.innerText = lista[i];
+//   li.classList.add('text-center', 'bg-blue');
+//   listaSpesa.append(li);
 
-  i++;
-}
+//   i++;
+// }
 
 /*
 @here
