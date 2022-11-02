@@ -5,13 +5,13 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
 }
 
 .quadrato{
   border: 1px solid black;
-  width: calc(100%/8);
+  width: calc(100%/10);
   aspect-ratio: 1/1;
 }
 
