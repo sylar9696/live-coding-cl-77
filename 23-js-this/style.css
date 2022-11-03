@@ -1,11 +1,23 @@
 *{padding: 0; margin: 0; box-sizing:border-box}
 
+header{
+  margin: 30px 0;
+}
+
+header h1{
+  margin-bottom: 30px;
+}
+
+header div{
+  text-align: center;
+}
+
 #griglia{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 50%;
+  width: 30%;
   margin: 0 auto;
 }
 
@@ -15,6 +27,15 @@
   aspect-ratio: 1/1;
 }
 
-.active{
+.bomba{
   background-color: lightcoral;
+}
+
+.salvo{
+  background-color: lightblue;
+}
+
+#punteggio{
+  text-align: center;
+  margin: 30px 0;
 }
