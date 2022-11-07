@@ -23,8 +23,11 @@ const numeri = [ 2,6,8,3,12 ];
 // } );
 
 //versione ancora piu abbreviata
-const pari = numeri.filter( (element) => {
-  return element % 2 == 0;
-} );
+// const pari = numeri.filter( (element) => {
+//   return element % 2 == 0;
+// } );
+
+//versione abbreviatissimaaaaaaa
+const pari = numeri.filter( (element) => element % 2 == 0 );
 
 console.log( pari )
