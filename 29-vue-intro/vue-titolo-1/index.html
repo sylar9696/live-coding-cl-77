@@ -14,29 +14,8 @@
 
   <div id="root">
     <!-- il nostro codice html + vue.js -->
-    <input type="text" v-model="nome" placeholder="nome">
-    <input type="text" v-model="cognome" placeholder="cognome">
-
-    <!-- v-bind -->
-    <h1 v-bind:class="classeDinamica"  class="text-center text-primary">{{ titolo }}</h1>
-
-    <a v-bind:href="link">link</a>
-
-    <!-- Bootstrap button -->
-    <div>
-      <button  type="button"  class="btn btn-primary" v-bind:class="btnDataClass" @click="saluta">Saluta</button>
-    </div>
-
-    <!-- Mi piace buttons -->
-    <div>
-      <button  type="button"  class="btn btn-primary" v-bind:class="btnDataClass" @click="like">Mi piace</button>
-    </div>
-
-    <div>
-      <p>Il numero di mi piace è: {{ likes }}</p>
-    </div>
-
-
+    <h1 :class="textColor">Il titolo della pagina</h1>
+    <button class="btn btn-primary" @click="btnBlu">click</button>
   </div>
 
 
