@@ -51,8 +51,7 @@ const {
 console.log(marca, alimentazione)
 
 
-const obj3 = [
-  {
+const obj3 = [{
     marca: 'ford',
     alimentazione: 'benzina',
     colore: 'nero'
@@ -67,18 +66,21 @@ const obj3 = [
 //destrutturizzazione in un array di oggetti con ciclo
 
 //prima della destrutturizzazione
-obj3.forEach( ( element , index)=>{
+obj3.forEach((element, index) => {
 
-  console.log( element.marca, element.alimentazione ) //1° giro di ciclo: ford benzina, 2° giro di ciclo: audi benzina
+  console.log(element.marca, element.alimentazione) //1° giro di ciclo: ford benzina, 2° giro di ciclo: audi benzina
 
-} )
+})
 
 //con della destrutturizzazione
-obj3.forEach( ( {marca, alimentazione} , index)=>{
+obj3.forEach(({
+  marca,
+  alimentazione
+}, index) => {
 
-  console.log( marca, alimentazione ) //1° giro di ciclo: ford benzina, 2° giro di ciclo: audi benzina
+  console.log(marca, alimentazione) //1° giro di ciclo: ford benzina, 2° giro di ciclo: audi benzina
 
-} )
+})
 
 
 
@@ -97,37 +99,37 @@ let arr = [
   ['piaggio', 'yahmaa']
 ]
 
-console.log( arr[0][1] )
+console.log(arr[0][1])
 
 
 
 /* spread */
 
-let arr1 = [1,2,3,4,5];
-let arr2 = [12,13];
+let arr1 = [1, 2, 3, 4, 5];
+let arr2 = [12, 13];
 
 //vogliamo un arr3 = [1,2,3,4,5,12,13];
 
 let arrTest = [];
 
-for( let i=0; i <arr1.length; i++ ){
+for (let i = 0; i < arr1.length; i++) {
 
-  arrTest.push( arr1[i] );
-
-}
-
-for( let k=0; k < arr2.length; k++ ){
-
-  arrTest.push( arr2[k] );
+  arrTest.push(arr1[i]);
 
 }
 
-console.log( arrTest )
+for (let k = 0; k < arr2.length; k++) {
+
+  arrTest.push(arr2[k]);
+
+}
+
+console.log(arrTest)
 
 //utilizzando lo spread
-let arr3 = [ ...arr1, ...arr2 ];
+let arr3 = [...arr1, ...arr2];
 
-console.log( arr3 )
+console.log(arr3)
 
 
 
@@ -147,19 +149,19 @@ let obj5Copia = {
   dim
 }
 
-console.log( obj5Copia )
+console.log(obj5Copia)
 
 
 //Esempio slide
 let myArguments = [];
 
-function myFunction( ...myArguments ){
+function myFunction(...myArguments) {
 
-  console.log( myArguments )
+  console.log(myArguments)
 
 }
 
-myFunction( 3, 'pippo' );
+myFunction(3, 'pippo');
 
 
 
@@ -171,3 +173,29 @@ myFunction( 3, 'pippo' );
 // Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
 // Generare numeri random al posto degli 0 nelle proprietà: Punti fatti e falli subiti.
 //Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
+
+
+
+
+
+
+function EstrazioneLetter( nomeCognome ) {
+
+  let arrayLettere = [];
+  let arrName = nomeCognome.split(' ');
+  let stringaIniziali;
+
+  arrName.forEach((elem) => {
+
+    let letteraEstratta = elem.charAt(0).toUpperCase();
+
+    arrayLettere.push(letteraEstratta);
+
+    stringaIniziali = arrayLettere.join('');
+
+  })
+
+  return stringaIniziali
+}
+
+console.log( EstrazioneLetter( 'alex Britti' ));
