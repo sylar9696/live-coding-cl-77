@@ -15,6 +15,12 @@ var app = new Vue({
   methods: {
     nomeFunzione: function () {
       this.variabileMostraNascondi = false;
+    },
+    randomSemplice: function(){
+      return Math.floor(Math.random() * (100 - 1 + 1) ) + 1;
+    },
+    randomParam:  function(min, max){
+      return Math.floor(Math.random() * (max - min + 1) ) + min;
     }
   }
 })
