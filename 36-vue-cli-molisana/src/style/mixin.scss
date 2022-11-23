@@ -1,0 +1,14 @@
+@mixin center( $tipologia: 'both' ) {
+
+  display: flex;
+
+  @if $tipologia == 'vertical' {
+    justify-content: center;
+  } @else if $tipologia == 'horizontal' {
+    align-items: center;
+  } @else if $tipologia == 'both' {
+    justify-content: center;
+    align-items: center;
+  }
+
+}
