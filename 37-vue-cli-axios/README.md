@@ -50,6 +50,17 @@
     Vue.component('font-awesome-icon', FontAwesomeIcon)
   ```
 
+  - ATTENZIONE: se la stessa icona viene importata con due stili diversi ad esempio: regular e solid, non possiamo usare lo stesso nome per le due icone ma dobbiamo usare un rieticchetamento con "as", il codice diverrà:
+  ```
+    /* import specific icons */
+    import { faUserSecret as faUserSecretSolid } from '@fortawesome/free-solid-svg-icons'
+    /*Import icone regular */
+    import { faUserSecret as faUserSecretRegular } from '@fortawesome/free-regular-svg-icons'
+
+    /* add icons to the library */
+    library.add(faUserSecretSolid, faUserSecretRegular)
+  ```
+
   - Nelle righe di codice:
   ```
    /* import specific icons */
